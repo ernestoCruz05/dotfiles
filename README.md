@@ -28,5 +28,5 @@ so stuff like my monitor,keyboard config are in here. What would be best would b
 
 ```bash
 git clone [https://github.com/ernestoCruz05/dotfiles.git](https://github.com/ernestoCruz05/dotfiles.git) ~/dotfiles
-ln -s ~/dotfiles/mango ~/.config/mango
-ln -s ~/dotfiles/dunst ~/.config/dunst
+ln -sfn ~/dotfiles/mango ~/.config/mango
+ln -sfn ~/dotfiles/dunst ~/.config/dunst
