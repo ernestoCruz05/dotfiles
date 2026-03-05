@@ -18,8 +18,11 @@ create_button() {
 
 # Change hyprlock to whatever you use
 create_button "menu_shutdown" "" "Shutdown" "systemctl poweroff" &
+sleep 0.02
 create_button "menu_reboot" "󰜉" "Reboot" "systemctl reboot" &
+sleep 0.02
 create_button "menu_lock" "" "Lock Screen" "hyprlock" &
+sleep 0.02
 create_button "menu_logout" "󰗽" "Log Out" "loginctl terminate-session $XDG_SESSION_ID" &
 
 wait
