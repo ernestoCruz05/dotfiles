@@ -27,6 +27,6 @@ Clone the repository and symlink the directories to your config folder:
 so stuff like my monitor,keyboard config are in here. What would be best would be to edit/remove these files after you download and tweak them to your liking
 
 ```bash
-git clone [https://github.com/ernestoCruz05/dotfiles.git](https://github.com/ernestoCruz05/dotfiles.git) ~/dotfiles
+git clone https://github.com/ernestoCruz05/dotfiles.git ~/dotfiles
 ln -sfn ~/dotfiles/mango ~/.config/mango
 ln -sfn ~/dotfiles/dunst ~/.config/dunst
