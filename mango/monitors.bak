@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "rules": [
+        "monitorrule=name:eDP-1,width:1920,height:1080,refresh:144.003006,x:0,y:0,scale:1.000000,rr:0"
+      ],
+      "source_file": "~/.config/mango/monitors.conf"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+[global]
+    # Display 
+    monitor = 0
+    follow = mouse
+    show_indicators = no
+
+    # Geometry 
+    width = 250
+    height = (0, 300)
+    origin = top-right
+    offset = (20, 60)
+    progress_bar_min_width = 300
+    scale = 0
+    notification_limit = 5
+    
+    # Progress Bar
+    progress_bar = true
+    progress_bar_height = 10
+    progress_bar_frame_width = 0
+    progress_bar_min_width = 150
+    progress_bar_max_width = 300
+    progress_bar_corner_radius = 0
+    
+    # Appearance
+    indicate_hidden = yes
+    transparency = 0
+    separator_height = 2
+    padding = 10
+    horizontal_padding = 10
+    text_icon_padding = 10
+    frame_width = 0
+    gap_size = 8
+    sort = yes
+    
+    # Text
+    font = JetBrainsMono Nerd Font 10
+    line_height = 0
+    markup = full
+    format = "%s\n%b"
+    alignment = left
+    vertical_alignment = center
+    show_age_threshold = 60
+    ellipsize = middle
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = false
+    
+    # Icons
+    icon_position = left
+    min_icon_size = 48
+    max_icon_size = 64
+    icon_path = /usr/share/icons/Papirus-Dark/48x48/status/:/usr/share/icons/Papirus-Dark/48x48/devices/:/usr/share/icons/Papirus-Dark/48x48/apps/
+    
+    # History
+    sticky_history = yes
+    history_length = 20
+    
+    # Misc
+    dmenu = /usr/bin/rofi -dmenu -p dunst
+    browser = /usr/bin/xdg-open
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    corner_radius = 0
+    ignore_dbusclose = false
+    
+    # Mouse
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+# Urgency Levels
+
+[urgency_low]
+    background = "#000000"
+    foreground = "#FFFFFF"
+    timeout = 5
+
+[urgency_normal]
+    background = "#000000"
+    foreground = "#FFFFFF"
+    timeout = 10
+
+[urgency_critical]
+    background = "#000000"
+    foreground = "#FFFFFF"
+    timeout = 0
+
+# App-Specific Rules
+
+[spotify]
+    appname = Spotify
+    timeout = 5
+
+[discord]
+    appname = Discord
+    timeout = 5
+
+[volume]
+    appname = "volume"
+    timeout = 2
+    history_ignore = yes
+
+[brightness]
+    appname = "brightness"
+    timeout = 2
+    history_ignore = yes
+
+[Radar_Center]
+    appname = "Radar"
+    format = "%b"
+
+[powermenu_dock]
+    appname = "PowerMenu"
+    format = "%b"
