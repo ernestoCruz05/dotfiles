@@ -1,0 +1,10 @@
+/* Pywal colors for Rofi */
+* {
+    background:       #0d0e0a;
+    background-trans: #0d0e0ad9;   /* ~85% opaque: slightly transparent panel */
+    background-alt:   #52544A;
+    foreground:       #c9c9be;
+    selected:         #97936A;
+    active:           #6B6958;
+    urgent:           #993D42;
+}

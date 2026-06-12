@@ -1,0 +1,11 @@
+{
+  "entries": [
+    {
+      "rules": [
+        "monitorrule=name:DP-3,width:1920,height:1080,refresh:165.003998,x:1080,y:470,scale:1.000000,rr:0",
+        "monitorrule=name:DP-2,width:1920,height:1080,refresh:200.059006,x:0,y:0,scale:1.000000,rr:1"
+      ],
+      "source_file": "~/.config/mango/./monitors.conf"
+    }
+  ]
+}

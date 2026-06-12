@@ -1,0 +1,14 @@
+enabled_plugins = [
+    "system-metrics",
+    "brightness-controller",
+    "audio-switcher",
+    "screenshot",
+    "volume-controller",
+    "workspace-listener",
+    "clock-calendar",
+    "power-menu",
+    "app-volume",
+    "media-dashboard",
+    "radar",
+    "dunst-gif",
+]

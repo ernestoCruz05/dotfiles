@@ -1,0 +1,1 @@
+/home/sof/.config/mplug/plugins/personal/dunst-gif.lua
